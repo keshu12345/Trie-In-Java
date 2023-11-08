@@ -98,29 +98,29 @@ public class Trie {
     }
 
     public static void main(String[] args) {
-//        String[] words = {"the", "a", "there", "their", "any", "thee"};
-//
-//        for (String word : words) {
-//            insert(word);
-//        }
-//        System.out.println("there -> " + search("there"));
-//        System.out.println("thor -> " + search("thor"));
-//        System.out.println("thee -> " + search("thee"));
-//        System.out.println("a -> " + search("a"));
-//        System.out.println("three -> " + search("three"));
-//
-//         words = new String[]{"i", "like", "sam", "samsung", "mobile"};
-//        String key ="ilikesamsung";
-//        for (String word : words) {
-//            insert(word);
-//        }
-//        System.out.println("i -> " + search("i"));
-//        System.out.println("like -> " + search("like"));
-//        System.out.println("samsung -> " + search("samsung"));
-//        System.out.println("Word break-->:"+wordBreak(key));
-//
-//        System.out.println(startWith("sam"));
-//        countUniqueSubString();
+        String[] words = {"the", "a", "there", "their", "any", "thee"};
+
+        for (String word : words) {
+            insert(word);
+        }
+        System.out.println("there -> " + search("there"));
+        System.out.println("thor -> " + search("thor"));
+        System.out.println("thee -> " + search("thee"));
+        System.out.println("a -> " + search("a"));
+        System.out.println("three -> " + search("three"));
+
+         words = new String[]{"i", "like", "sam", "samsung", "mobile"};
+        String key ="ilikesamsung";
+        for (String word : words) {
+            insert(word);
+        }
+        System.out.println("i -> " + search("i"));
+        System.out.println("like -> " + search("like"));
+        System.out.println("samsung -> " + search("samsung"));
+        System.out.println("Word break-->:"+wordBreak(key));
+
+        System.out.println(startWith("sam"));
+        countUniqueSubString();
         String str = "ababa";
 
         for (int i = 0; i < str.length(); i++) {
@@ -129,7 +129,7 @@ public class Trie {
         }
         System.out.println(countNode(root));
 
-        String[] words = {"a", "banana", "app", "appl", "ap", "apple", "apply"};
+         words = new String[]{"a", "banana", "app", "appl", "ap", "apple", "apply"};
 
         for (String word : words) {
             insert(word);
